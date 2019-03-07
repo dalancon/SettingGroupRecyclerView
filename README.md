@@ -7,11 +7,11 @@
 4、中间行的线条高度  
 5、中间行的线条距离左边的距离  
 
-`
-MineItemDecoration mineItemDecoration = new MineItemDecoration(this)  
-                .setShowTopLine(true)  
-                .setShowBottomLine(false)  
-                .setDividerHeight(getResources().getDimensionPixelSize(R.dimen.divider_height))  
+
+  MineItemDecoration mineItemDecoration = new MineItemDecoration(this)  
+                 .setShowTopLine(true)  
+                 .setShowBottomLine(false)  
+                 .setDividerHeight(getResources().getDimensionPixelSize(R.dimen.divider_height))  
                 .setDividerMarginLeft(getResources().getDimensionPixelSize(R.dimen.divider_margin_left))  
                 .setSectionIndexs(2, 5)  
                 .setTopAndBottomMarginLeft(getResources().getDimensionPixelSize(R.dimen.top_bottom_margin_left));  
