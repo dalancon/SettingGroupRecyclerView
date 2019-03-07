@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="divider_height">1dp</dimen>
+
+    <dimen name="divider_margin_left">20dp</dimen>
+
+    <dimen name="top_bottom_margin_left">10dp</dimen>
+</resources>
