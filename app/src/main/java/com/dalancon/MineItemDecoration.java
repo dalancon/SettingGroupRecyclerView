@@ -25,6 +25,16 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
      */
     private int dividerHeight = 2;
 
+    /**
+     * 分割线颜色
+     */
+    private String dividerColor = "#F4F4F4";
+
+    /**
+     * 组之间的区域颜色
+     */
+    private String groupDividerColor = "#F2F2F2";
+
     private Paint mPaint;
 
     private Paint mPaintWhite, dividerPaint;
@@ -55,7 +65,7 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
         sectionHeight = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, context.getResources().getDisplayMetrics());
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
-        mPaint.setColor(Color.parseColor("#F2F2F2"));
+        mPaint.setColor(Color.parseColor(groupDividerColor));
 
         mPaintWhite = new Paint();
         mPaintWhite.setAntiAlias(true);
@@ -63,7 +73,7 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
 
         dividerPaint = new Paint();
         dividerPaint.setAntiAlias(true);
-        dividerPaint.setColor(Color.parseColor("#F4F4F4"));
+        dividerPaint.setColor(Color.parseColor(dividerColor));
     }
 
     @Override
@@ -175,6 +185,26 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
      */
     public MineItemDecoration setSectionIndexs(Integer ...indexs){
         sections = Arrays.asList(indexs);
+        return this;
+    }
+
+    /**
+     * 设置分割线的颜色
+     * @param dividerColor
+     * @return
+     */
+    public MineItemDecoration setDividerColor(String dividerColor) {
+        this.dividerColor = dividerColor;
+        return this;
+    }
+
+    /**
+     * 设置组之间的区域颜色
+     * @param groupDividerColor
+     * @return
+     */
+    public MineItemDecoration setGroupDividerColor(String groupDividerColor) {
+        this.groupDividerColor = groupDividerColor;
         return this;
     }
 }
