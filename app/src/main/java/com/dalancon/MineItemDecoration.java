@@ -200,6 +200,7 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
      */
     public MineItemDecoration setDividerColor(String dividerColor) {
         this.dividerColor = dividerColor;
+        dividerPaint.setColor(Color.parseColor(dividerColor));
         return this;
     }
 
@@ -210,6 +211,7 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
      */
     public MineItemDecoration setGroupDividerColor(String groupDividerColor) {
         this.groupDividerColor = groupDividerColor;
+        mPaint.setColor(Color.parseColor(groupDividerColor));
         return this;
     }
 }

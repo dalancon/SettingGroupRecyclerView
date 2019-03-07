@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 .setShowBottomLine(false)
                 .setDividerHeight(getResources().getDimensionPixelSize(R.dimen.divider_height))
                 .setDividerMarginLeft(getResources().getDimensionPixelSize(R.dimen.divider_margin_left))
-                .setSectionIndexs(2, 5)
-                .setGroupDividerColor("#F2F2F2")
+                .setSectionIndexs(2, 5,8)
+                .setGroupDividerColor("#ff0000")
                 .setDividerColor("#F4F4F4")
                 .setTopAndBottomMarginLeft(getResources().getDimensionPixelSize(R.dimen.top_bottom_margin_left));
 
