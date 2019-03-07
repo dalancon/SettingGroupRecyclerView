@@ -22,3 +22,51 @@ MineItemDecoration mineItemDecoration = new MineItemDecoration(this)
 
 recyclerView.addItemDecoration(mineItemDecoration);
 ```
+
+
+    /**
+     * 设置分割线左边的距离
+     *
+     * @param divider_marginLeft
+     */
+    setDividerMarginLeft(int divider_marginLeft)
+
+    /**
+     * 设置分组的下标
+     * @param indexs
+     * @return
+     */
+    setSectionIndexs(Integer ...indexs)
+      
+
+    /**
+     * 设置分割线的颜色
+     * @param dividerColor
+     * @return
+     */
+    setDividerColor(String dividerColor)
+
+    /**
+     * 设置组之间的区域颜色
+     * @param groupDividerColor
+     * @return
+     */
+    setGroupDividerColor(String groupDividerColor) 
+    
+    /**
+     * 设置分割线高度
+     *
+     * @param dividerHeight
+     */
+    setDividerHeight(int dividerHeight) 
+
+    setShowTopLine(boolean showTopLine) 
+
+    setShowBottomLine(boolean showBottomLine)
+    
+    /**
+     * 设置第一条上边和最后一条下边的线条距离左边的距离
+     * @param topAndBottomMarginLeft
+     * @return
+     */
+    setTopAndBottomMarginLeft(int topAndBottomMarginLeft)
