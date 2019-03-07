@@ -7,7 +7,7 @@
 4、中间行的线条高度  
 5、中间行的线条距离左边的距离  
 
-
+`
 MineItemDecoration mineItemDecoration = new MineItemDecoration(this)  
                 .setShowTopLine(true)  
                 .setShowBottomLine(false)  
@@ -17,3 +17,4 @@ MineItemDecoration mineItemDecoration = new MineItemDecoration(this)
                 .setTopAndBottomMarginLeft(getResources().getDimensionPixelSize(R.dimen.top_bottom_margin_left));  
 
 recyclerView.addItemDecoration(mineItemDecoration);
+`
