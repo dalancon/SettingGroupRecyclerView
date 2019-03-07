@@ -1,5 +1,5 @@
 # SettingGroupRecyclerView
-<img src="https://github.com/dalancon/SettingGroupRecyclerView/blob/master/screenshots/WechatIMG104.jpeg" alt="Sample"  width="108" height="192"/>
+<img src="https://github.com/dalancon/SettingGroupRecyclerView/blob/master/screenshots/WechatIMG104.jpeg" alt="Sample"  width="216" height="384"/>
 
 实现app中设置页面的列表分组显示，原理自定义 ItemDecoration  
 支持以下：  
