@@ -163,6 +163,11 @@ public class MineItemDecoration extends RecyclerView.ItemDecoration {
         return this;
     }
 
+    /**
+     * 设置第一条上边和最后一条下边的线条距离左边的距离
+     * @param topAndBottomMarginLeft
+     * @return
+     */
     public MineItemDecoration setTopAndBottomMarginLeft(int topAndBottomMarginLeft) {
         this.topAndBottomMarginLeft = topAndBottomMarginLeft;
         return this;
